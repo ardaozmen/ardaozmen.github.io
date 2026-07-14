@@ -12,9 +12,9 @@ export default function Manifesto() {
       initial={reduced ? false : { opacity: 0, y: 24, filter: "blur(6px)" }}
       animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       transition={{ duration: 1.8, delay: 0.4, ease: EASE }}
-      className="max-w-4xl text-balance text-center text-4xl font-medium leading-[1.15] tracking-[-0.03em] text-neutral-100 sm:text-6xl md:text-7xl"
+      className="max-w-3xl text-balance text-center text-3xl font-normal leading-[1.25] tracking-[-0.02em] text-neutral-200 sm:text-5xl md:text-6xl"
     >
-      Engineering trust for the age of AI.
+      Intelligence deserves better systems.
     </motion.h1>
   );
 }
