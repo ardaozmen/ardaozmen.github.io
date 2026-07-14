@@ -4,11 +4,11 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Arda Cem Özmen",
-  description: "Building trusted intelligence.",
+  description: "Engineering trust for the age of AI.",
   metadataBase: new URL("https://ardaozmen.github.io"),
   openGraph: {
     title: "Arda Cem Özmen",
-    description: "Building trusted intelligence.",
+    description: "Engineering trust for the age of AI.",
     url: "https://ardaozmen.github.io",
     type: "website",
   },

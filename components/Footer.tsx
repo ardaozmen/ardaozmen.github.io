@@ -25,7 +25,7 @@ export default function Footer() {
         GitHub
       </a>
       <a
-        href="https://www.linkedin.com/in/ardaozmen"
+        href="https://www.linkedin.com/in/ardacemozmen"
         target="_blank"
         rel="noopener noreferrer"
         className="rounded-sm transition-colors duration-500 hover:text-neutral-200 focus-visible:text-neutral-200 focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-4 focus-visible:outline-neutral-600"

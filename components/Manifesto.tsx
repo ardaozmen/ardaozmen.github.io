@@ -14,7 +14,7 @@ export default function Manifesto() {
       transition={{ duration: 1.8, delay: 0.4, ease: EASE }}
       className="max-w-4xl text-balance text-center text-4xl font-medium leading-[1.15] tracking-[-0.03em] text-neutral-100 sm:text-6xl md:text-7xl"
     >
-      Building trusted intelligence.
+      Engineering trust for the age of AI.
     </motion.h1>
   );
 }
