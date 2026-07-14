@@ -14,8 +14,4 @@
 <br>
 <br>
 
-<sub>Arda Cem Özmen</sub>
-
-<br>
-
 </div>
