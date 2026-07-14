@@ -3,10 +3,10 @@ import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "•",
+  title: "ardaozmen.github.io",
   metadataBase: new URL("https://ardaozmen.github.io"),
   openGraph: {
-    title: "•",
+    title: "ardaozmen.github.io",
     url: "https://ardaozmen.github.io",
     type: "website",
   },
