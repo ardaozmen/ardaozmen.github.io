@@ -17,6 +17,32 @@ export const viewport: Viewport = {
   colorScheme: "dark",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://ardaozmen.github.io/#person",
+      name: "Arda Cem Özmen",
+      alternateName: ["Arda Özmen", "ardaozmen"],
+      url: "https://ardaozmen.github.io",
+      description: "Intelligence deserves better systems.",
+      sameAs: [
+        "https://github.com/ardaozmen",
+        "https://www.linkedin.com/in/ardacemozmen",
+      ],
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://ardaozmen.github.io/#website",
+      url: "https://ardaozmen.github.io",
+      name: "Arda Cem Özmen",
+      alternateName: ["ardaozmen", "ardaozmen.github.io"],
+      publisher: { "@id": "https://ardaozmen.github.io/#person" },
+    },
+  ],
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -24,7 +50,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={GeistSans.className}>
-      <body>{children}</body>
+      <body>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+        {children}
+      </body>
     </html>
   );
 }
